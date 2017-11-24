@@ -7,7 +7,6 @@ play=(
 	('n','not play'),
 )
 
-
 class Stream(models.Model):
 	name=models.CharField(max_length=100)
 	head_imag=models.FileField(upload_to='./upload/',default='null')
